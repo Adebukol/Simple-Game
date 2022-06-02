@@ -1,0 +1,36 @@
+#container{
+ background-color: bisque;
+ max-width: 400px;
+ margin: auto; 
+ padding: 30px;
+
+}
+#cont{
+  background-color: azure;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 20px;
+  border-bottom-color: 2px solid grey;
+  /* display: inline-flex; */
+  margin: 10px;
+  
+}
+#grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  justify-content: center;
+ 
+}
+#grid img{
+  width: 120px;
+  height: 100px;
+}
+
